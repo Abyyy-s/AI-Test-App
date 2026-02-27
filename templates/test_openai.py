@@ -1,7 +1,7 @@
 from google import genai
 
 # paste your Gemini API key
-client = genai.Client(api_key="AIzaSyBbDAQlEk4D3yu3tzHJSFi3lkaQujy0tpk")
+client = genai.Client(api_key="")
 
 response = client.models.generate_content(
     model="gemini-3-flash-preview",
